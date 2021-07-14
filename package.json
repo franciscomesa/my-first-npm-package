@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "My first npm package to publish",
   "main": "index.js",
+  "bin": {
+    "hello": "bin/helloWorld.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
