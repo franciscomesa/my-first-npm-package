@@ -1,0 +1,24 @@
+{
+  "name": "@franciscomesa/first-npm",
+  "version": "0.1.0",
+  "description": "My first npm package to publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscomesa/my-first-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "first"
+  ],
+  "author": "Francisco Mesa <franciscomesa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscomesa/my-first-npm-package/issues"
+  },
+  "homepage": "https://github.com/franciscomesa/my-first-npm-package#readme"
+}
